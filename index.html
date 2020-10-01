@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Parcel Sandbox</title>
+    <title>Online Test</title>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./src/styles.css">
+    <link rel="stylesheet" href="./src/styles.css" />
   </head>
 
   <body>
     <div class="row">
       <div class="column left">
-        <h4>Query: The Great Wall</h4>
-        <p>1. How is the entity on the right panel relevant to the query?</p>
+        <h3 id="query">Query: The Great Wall</h3>
+        <p class="light-border">
+          1. How is the entity on the right panel relevant to the query?
+        </p>
         <input type="radio" id="excellent" name="question1" value="100" />
         <label for="excellent">Excellent</label><br />
         <input type="radio" id="good" name="question1" value="50" />
@@ -18,12 +20,17 @@
         <input type="radio" id="poor" name="question1" value="0" />
         <label for="poor">Poor</label>
         <div id="question2"></div>
-        <button id="submitBtn">Submit</button>
-        <button id="skipBtn">Skip</button>
+        <div id="div-btn">
+          <button class="btn" id="submitBtn">Submit</button>
+          <button class="btn" id="skipBtn">Skip</button>
+        </div>
       </div>
       <div class="column mid">
-        <h4>Name: The Great Wall</h4>
-        <h4>Description:</h4>
+        <h3 class="h3-color light-border">
+          Name:
+          <p>The Great Wall</p>
+        </h3>
+        <h3 class="h3-color">Description:</h3>
         <p>
           The Great Wall (Chinese: 长城) is a 2016 Chinese fantasy action
           monster film directed by Zhang Yimou, with a screenplay by Carlo

@@ -1,25 +1,93 @@
 .row {
-    display: flex;
+  display: flex;
+}
+
+.column {
+  padding: 10px;
+  float: left;
+}
+
+.left {
+  width: 30%;
+}
+
+.mid {
+    width: 50%;
+}
+
+.rigth {
+    width: 20%;
+}
+
+img {
+  height: 60%;
+  width: 60%;
+}
+
+.btn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(139, 141, 150);
+  width: 60px;
+  height: 20px;
+  border: 2px;
+  color: rgb(228, 226, 226);
+}
+
+#div-btn {
+  margin-top: 50px;
+  float: right;
+}
+
+#submitBtn {
+  margin-right: 10px;
+}
+
+#skipBtn {
+  margin-right: 40px;
+}
+
+h3 p {
+  display: inline;
+}
+
+.h3-color {
+  color: rgb(7, 132, 190);
+}
+
+p {
+  color: black;
+  font-weight: 100;
+  font-size: 90%;
+}
+
+#query {
+  font-weight: 200;
+}
+
+.light-border {
+  border-style: solid;
+  padding: 5px;
+  border-width: 1px;
+  border-color: #dce0d7;
+}
+
+img {
+  margin-top: 20px;
+}
+
+label {
+  padding: 5px;
+}
+
+@media screen and (max-width: 900px) {
+    .left {
+      width: 100%;
+    }
+    .mid {
+        width: 100%;
+      }
+      .right {
+        width: 100%;
+      }
   }
-  
-  .column {
-    padding: 10px;
-  }
-  
-  .left {
-    flex: 50%;
-  }
-  
-  .mid {
-    flex: 30%;
-  }
-  
-  .rigth {
-    flex: 20%;
-  }
-  
-  img {
-    height: 200px;
-    width: 100px;
-  }
-  

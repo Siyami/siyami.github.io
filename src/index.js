@@ -1,3 +1,5 @@
+'use strict';
+
 let excellent = document.getElementById("excellent");
 let good = document.getElementById("good");
 let poor = document.getElementById("poor");
@@ -63,13 +65,11 @@ skipBtn.addEventListener("click", function () {
 
 excellent.addEventListener("click", function () {
   document.getElementById("question2").innerHTML = `
-    <p>2. Which part of content are relevant to the query?</p>
+    <p class="light-border">2. Which part of content are relevant to the query?</p>
     <input class="question2" type="radio" id="image" name="image" value="50" />
     <label for="image">Image</label><br />
-
     <input class="question2" type="radio" id="name" name="q2-name" value="50" />
     <label for="name">Name</label><br />
-    
     <input class="question2" type="radio" id="description" name="description" value="25" />
     <label for="description">Poor</label>
   `;
