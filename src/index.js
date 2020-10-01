@@ -71,7 +71,7 @@ excellent.addEventListener("click", function () {
     <input class="question2" type="radio" id="name" name="q2-name" value="50" />
     <label for="name">Name</label><br />
     <input class="question2" type="radio" id="description" name="description" value="25" />
-    <label for="description">Poor</label>
+    <label for="description">Description</label>
   `;
 });
 
