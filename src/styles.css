@@ -1,0 +1,25 @@
+.row {
+    display: flex;
+  }
+  
+  .column {
+    padding: 10px;
+  }
+  
+  .left {
+    flex: 50%;
+  }
+  
+  .mid {
+    flex: 30%;
+  }
+  
+  .rigth {
+    flex: 20%;
+  }
+  
+  img {
+    height: 200px;
+    width: 100px;
+  }
+  
